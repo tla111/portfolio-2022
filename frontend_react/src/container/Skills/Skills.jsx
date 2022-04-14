@@ -7,7 +7,9 @@ import './Skills.scss';
 
 const Skills = () => {
     return (
-        <div>Skills</div>
+        <>
+            <h2 className="head-text">Skills & Experience</h2>
+        </>
     )
 }
 
