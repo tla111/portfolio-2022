@@ -26,14 +26,17 @@ const Testimonial = () => {
             setBrands(data);
         })
     }, [])
+
+    const test = testimonials[currentIndex]
+
     return (
         <>
             {testimonials.length && (
                 <>
                     <div className="app__testimonial-item app__flex">
-                        <img src={urlFor(testimonials[currentIndex].imageurl)} alt="testimonial" />
+                        <img src={urlFor(test.imageurl)} alt="testimonial" />
                         <div className="app__testimonial-content">
-                            <p className="p-text">{testimonials[currentIndex].feedback}</p>
+                            <p className="p-text">{test.feedback}</p>
                         </div>
                     </div>
                 </>
