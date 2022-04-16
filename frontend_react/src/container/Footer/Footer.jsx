@@ -21,7 +21,7 @@ const Footer = () => {
                 </div>
             </div>
 
-            <div className="app__footer-form app__flex">
+            {/* <div className="app__footer-form app__flex">
                 <div className="app__flex">
                     <input className="p-text" type="text" placeHolder="Your Name" name="name" value={name} onChange={handleChangeInput} />
                 </div>
@@ -38,7 +38,7 @@ const Footer = () => {
                     />
                 </div>
                 <button type="button" className="p-text" onClick={handleSubmit}>Send Message</button>
-            </div>
+            </div> */}
         </>
     )
 }
