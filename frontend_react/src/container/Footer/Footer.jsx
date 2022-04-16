@@ -15,10 +15,10 @@ const Footer = () => {
                     <img src={images.email} alt="email" />
                     <a href="mailto:hello@micael.com" className="p-text">hello@micael.com</a>
                 </div>
-                {/* <div className="app__footer-cards">
-                    <img src={images.email} alt="email" />
-                    <a href="mailto:hello@micael.com" className="p-text">hello@micael.com</a>
-                </div> */}
+                <div className="app__footer-cards">
+                    <img src={images.mobile} alt="mobile" />
+                    <a href="tel: +1 (123) 456-789" className="p-text">+1 (123) 456-789</a>
+                </div>
             </div>
         </>
     )
