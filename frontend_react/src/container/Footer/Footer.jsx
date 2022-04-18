@@ -6,6 +6,9 @@ import { client } from '../../client';
 import './Footer.scss';
 
 const Footer = () => {
+    const [formData, setFormData] = useState({ name: "", email: "", message: "" });
+    const [isFormSubmitted, setIsFormSubmitted] = useState(false);
+    const [loading, setLoading] = useState(false);
     return (
         <>
             <h2 className="head-text">Take a coffee & chat with me</h2>
