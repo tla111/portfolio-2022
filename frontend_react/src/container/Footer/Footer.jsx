@@ -9,6 +9,12 @@ const Footer = () => {
     const [formData, setFormData] = useState({ name: "", email: "", message: "" });
     const [isFormSubmitted, setIsFormSubmitted] = useState(false);
     const [loading, setLoading] = useState(false);
+
+    const { name, email, message } = formData;
+
+    const handleChangeInput = (e) => {
+        const { name, value } = e.target;
+    }
     return (
         <>
             <h2 className="head-text">Take a coffee & chat with me</h2>
