@@ -20,21 +20,21 @@ const skillLogos = [
 
 const Skills = () => {
     const [experiences, setExperience] = useState([]);
-    const [skills, setSkills] = useState([]);
+    // const [skills, setSkills] = useState([]);
 
     useEffect(() => {
         const query = '*[_type == "experiences"]';
-        const skillsQuery = '*[_type == "skills"]';
+        // const skillsQuery = '*[_type == "skills"]';
 
         client.fetch(query).then((data) => {
             // console.log(data);
             setExperience(data);
         })
-        client.fetch(skillsQuery).then((data) => {
-            console.log(data);
+        // client.fetch(skillsQuery).then((data) => {
+        //     console.log(data);
 
-            setSkills(data);
-        })
+        //     setSkills(data);
+        // })
     }, [])
     return (
         <>
