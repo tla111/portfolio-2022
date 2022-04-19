@@ -19,7 +19,7 @@ const Skills = () => {
             setExperience(data);
         })
         client.fetch(skillsQuery).then((data) => {
-            // console.log(data);
+            console.log(data);
 
             setSkills(data);
         })
