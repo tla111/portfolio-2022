@@ -15,7 +15,7 @@ import python from '../assets/python.png';
 import react from '../assets/react.png';
 import redux from '../assets/redux.png';
 import sass from '../assets/sass.png';
-import solidity from '../assets/Solidity-Logo.wine.png';
+import solidity from '../assets/solidity.svg';
 import typescript from '../assets/typescript.png';
 import vue from '../assets/vue.png';
 
