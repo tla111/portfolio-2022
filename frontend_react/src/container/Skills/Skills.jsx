@@ -4,7 +4,19 @@ import { motion } from 'framer-motion';
 
 import { AppWrap, MotionWrap } from '../../wrapper';
 import { urlFor, client } from '../../client';
+import { images } from '../../constants';
 import './Skills.scss';
+
+const skillLogos = [
+    { name: "React", image: images.react },
+    { name: "Javascript", image: images.javascript },
+    { name: "Redux", image: images.redux },
+    { name: "Node JS", image: images.node },
+    { name: "Python", image: images.python },
+    { name: "Solidity", image: images.solidity },
+    { name: "Sass", image: images.sass },
+    { name: "Git", image: images.git }
+]
 
 const Skills = () => {
     const [experiences, setExperience] = useState([]);
@@ -30,7 +42,7 @@ const Skills = () => {
 
             <div className="app__skills-container">
                 <motion.div className="app__skills-list">
-                    {skills?.map((skill) => (
+                    {skillLogos?.map((skill) => (
                         <motion.div
                             whileInView={{ opacity: [0, 1] }}
                             transition={{ duration: 0.5 }}
@@ -38,7 +50,7 @@ const Skills = () => {
                             key={skill.name}
                         >
                             <div className="app__flex" style={{ backgroundColor: skill.bgColor }}>
-                                <img src={urlFor(skill.icon)} alt={skill.name} />
+                                <img src={skill.image} alt={skill.name} />
                             </div>
                             <p className="p-text">{skill.name}</p>
                         </motion.div>
