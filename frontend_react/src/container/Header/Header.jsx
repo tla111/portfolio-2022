@@ -34,18 +34,23 @@ const Header = () => {
                         </div>
                     </div>
                     <div className="tag-cmp app__flex">
-                        <p className="p-text">Web Developer</p>
-                        <p className="p-text">Freelancer</p>
+                        <p className="p-text">Lorem ipsum dolor sit amet,
+                            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            Ut enim ad minim veniam,
+                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </p>
                     </div>
                 </div>
             </motion.div>
 
-            {/* <motion.div
+            <motion.div
                 whileInView={{ opacity: [0, 1] }}
                 transition={{ duration: 0.5, delayChildren: 0.5 }}
                 className="app__header-img"
             >
-                <img src={images.about01} alt="profile_bg" />
+                {/* <img src={images.about01} alt="profile_bg" /> */}
                 <motion.img
                     whileInView={{ scale: [0, 1] }}
                     transition={{ duration: 1, ease: "easeInOut" }}
@@ -53,9 +58,9 @@ const Header = () => {
                     alt="profile_circle"
                     className="overlay_circle"
                 />
-            </motion.div> */}
+            </motion.div>
 
-            <motion.div
+            {/* <motion.div
                 variant={scaleVariants}
                 whileInView={scaleVariants.whileInView}
                 className="app__header-circles"
@@ -65,7 +70,7 @@ const Header = () => {
                         <img src={circle} alt="circle" />
                     </div>
                 ))}
-            </motion.div>
+            </motion.div> */}
         </div>
     )
 }
