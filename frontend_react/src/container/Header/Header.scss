@@ -1,18 +1,22 @@
+// #home {
+//   position: relative;
+//   background: url("../../assets/bgIMG.png");
+//   background-size: cover;
+//   background-position: center;
+//   background-repeat: repeat;
+
+//   // disable the default padding styles
+//   .app__wrapper {
+//     padding: 0;
+
+//     .copyright {
+//       display: none;
+//     }
+//   }
+// }
+
 #home {
-  position: relative;
-  background: url("../../assets/bgIMG.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: repeat;
-
-  // disable the default padding styles
-  .app__wrapper {
-    padding: 0;
-
-    .copyright {
-      display: none;
-    }
-  }
+         background-color: #0a0a0a;
 }
 
 .app__header {
