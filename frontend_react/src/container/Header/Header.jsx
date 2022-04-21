@@ -6,16 +6,16 @@ import { AppWrap } from '../../wrapper';
 import { images } from '../../constants';
 import './Header.scss';
 
-// const scaleVariants = {
-//     whileInView: {
-//         scale: [0, 1],
-//         opacity: [0, 1],
-//         transition: {
-//             duration: 1,
-//             ease: "easeInOut"
-//         }
-//     }
-// }
+const scaleVariants = {
+    whileInView: {
+        scale: [0, 1],
+        opacity: [0, 1],
+        transition: {
+            duration: 1,
+            ease: "easeInOut"
+        }
+    }
+}
 
 const Header = () => {
     return (
@@ -55,7 +55,7 @@ const Header = () => {
                 />
             </motion.div> */}
 
-            {/* <motion.div
+            <motion.div
                 variant={scaleVariants}
                 whileInView={scaleVariants.whileInView}
                 className="app__header-circles"
@@ -65,7 +65,7 @@ const Header = () => {
                         <img src={circle} alt="circle" />
                     </div>
                 ))}
-            </motion.div> */}
+            </motion.div>
         </div>
     )
 }
