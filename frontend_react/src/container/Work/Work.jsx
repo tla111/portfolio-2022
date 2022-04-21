@@ -38,7 +38,7 @@ const Work = () => {
 
     return (
         <>
-            <h2 className="head-text">My <span>Portfolio</span> Work</h2>
+            <h2 className="head-text" style={{ color: "#0033FF" }}> My <span style={{ color: "#00FFFF" }} > Portfolio</span> Work</h2 >
 
             <div className="app__work-filter">
                 {["All", "React", "Solidity", "Python", "Wix"].map((item, index) => (
