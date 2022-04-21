@@ -22,7 +22,7 @@ const About = () => {
 
     return (
         <>
-            <h2 className="head-text">I Know that <span>Discipline + Consistency </span><br /> Go <span>Hand in Hand</span>
+            <h2 className="head-text">Project 1 - <span>Web 3.0 </span>
             </h2>
 
             <div className="app__profiles">
