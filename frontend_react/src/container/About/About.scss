@@ -6,14 +6,16 @@
 
 .app__profiles {
   display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  // flex-wrap: wrap;
   margin-top: 2rem;
+  // border: 1px solid red;
+  width: 100%;
 }
 
 .app__profile-item {
-  width: 190px;
+  width: 275px;
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
@@ -35,4 +37,15 @@
       height: 320px;
     }
   }
+}
+
+.app__profile-project {
+  // border: 1px solid black;
+  // background-color: black;
+  height: 350px;
+  width: 650px;
+  background-image: url("../../assets/web3.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
