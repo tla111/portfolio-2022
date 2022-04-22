@@ -28,5 +28,4 @@ const HeaderTwo = () => {
     )
 }
 
-// export default HeaderTwo
 export default AppWrap(HeaderTwo, "home");
