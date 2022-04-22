@@ -13,10 +13,6 @@
 
   border: 1px solid red;
 
-  h1 {
-      color: var(--white-color);
-  }
-
   @media screen and (min-width: 2000px) {
     padding-top: 8rem;
   }
@@ -31,7 +27,35 @@
 }
 
 .header_box {
-    border: 1px solid dodgerblue;
+    // border: 1px solid dodgerblue;
     height: 90%;
     width: 50%;
+}
+
+.first_header_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    h1, h2, h3 {
+      color: var(--white-color);
+    }
+
+    h1 {
+        font-size: 48px;
+    }
+}
+
+.second_header_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header_boxTwo_image_container {
+    // border: 1px solid greenyellow;
+    height: 75%;
+    width: 75%;
+    background-image: url('../../assets/about01.png');
+    background-size: cover;
 }
