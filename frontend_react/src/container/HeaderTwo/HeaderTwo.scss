@@ -50,12 +50,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-}
 
-.header_boxTwo_image_container {
-    // border: 1px solid greenyellow;
-    height: 75%;
-    width: 75%;
-    background-image: url('../../assets/about01.png');
-    background-size: cover;
+    img {
+        height: 75%;
+        width: 75%;
+        border-radius: 20px;
+        box-shadow: rgba(255, 255, 255, 0.55) 0px 5px 15px;
+    }
 }
