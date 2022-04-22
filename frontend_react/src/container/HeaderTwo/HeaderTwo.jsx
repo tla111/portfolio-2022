@@ -6,7 +6,10 @@ import './HeaderTwo.scss';
 
 const HeaderTwo = () => {
     return (
-        <div>HeaderTwo</div>
+        <div className="app__header">
+            <div className="header_box"></div>
+            <div className="header_box"></div>
+        </div>
     )
 }
 
