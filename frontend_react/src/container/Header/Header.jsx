@@ -60,7 +60,7 @@ const Header = () => {
                 />
             </motion.div>
 
-            {/* <motion.div
+            <motion.div
                 variant={scaleVariants}
                 whileInView={scaleVariants.whileInView}
                 className="app__header-circles"
@@ -70,7 +70,7 @@ const Header = () => {
                         <img src={circle} alt="circle" />
                     </div>
                 ))}
-            </motion.div> */}
+            </motion.div>
         </div>
     )
 }
