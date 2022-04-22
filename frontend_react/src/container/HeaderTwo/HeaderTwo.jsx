@@ -8,9 +8,11 @@ const HeaderTwo = () => {
     return (
         <div className="app__header">
             <div className="header_box first_header_box">
-                <h1>Welcome to My Website</h1>
-                <h2>Welcome to My Website</h2>
-                <h3>Welcome to My Website</h3>
+                <h1>Tim La, Front-End Web Developer</h1>
+                <p>Lorem ipsum dolor sit amet,
+                    consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Ut enim ad minim veniam
+                </p>
             </div>
             <div className="header_box second_header_box">
                 <div className="header_boxTwo_image_container"></div>
