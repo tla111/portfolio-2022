@@ -14,11 +14,8 @@ const HeaderTwo = () => {
             >
                 <h1>Tim La | Front-End Web Developer</h1>
                 <h3>
-                    Seeking to build my curiosity and expertise in <br /><span style={{ color: "#00FFFF" }}>React, JavaScript, & Solidity, & Blah Blah</span>
+                    Seeking to build my curiosity and expertise in <br /><span style={{ color: "#00FFFF" }}>React, JavaScript, & Solidity</span>
                 </h3>
-                <p>Lorem</p>
-                <small style={{ color: "red" }}>Hi</small>
-                <small style={{ color: "dodgerblue" }}>Hey</small>
             </motion.div>
             <motion.div
                 whileInView={{ x: [100, 0], opacity: [0, 1] }}
