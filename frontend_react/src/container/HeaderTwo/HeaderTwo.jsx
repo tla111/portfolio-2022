@@ -23,7 +23,7 @@ const HeaderTwo = () => {
                 transition={{ duration: 0.5 }}
                 className="header_box second_header_box"
             >
-                <img src={images.about01} alt="header-img" />
+                {/* <img src={images.about01} alt="header-img" /> */}
             </motion.div>
         </div>
     )
