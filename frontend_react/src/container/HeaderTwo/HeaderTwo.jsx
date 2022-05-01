@@ -12,7 +12,7 @@ const HeaderTwo = () => {
                 transition={{ duration: 0.5 }}
                 className="header_box first_header_box"
             >
-                <h1>Tim La | Front-End Web Developer</h1>
+                {/* <h1>Tim La | Front-End Web Developer</h1> */}
                 {/* <h3>
                     Seeking to build my curiosity and expertise in <br /><span style={{ color: "#00FFFF" }}>React, JavaScript, & Solidity</span>
                 </h3> */}
