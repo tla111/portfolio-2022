@@ -14,7 +14,7 @@ const skillLogos = [
     { name: "Node JS", image: images.node },
     { name: "Python", image: images.python },
     { name: "Solidity", image: images.solidity },
-    { name: "Sass", image: images.sass },
+    // { name: "Sass", image: images.sass },
     { name: "Git", image: images.git }
 ]
 
