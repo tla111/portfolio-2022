@@ -14,6 +14,7 @@ import node from '../assets/node.png';
 import python from '../assets/python.png';
 import react from '../assets/react.png';
 import redux from '../assets/redux.png';
+import sanity from '../assets/sanity.png'
 import sass from '../assets/sass.png';
 import solidity from '../assets/solidity.svg';
 import typescript from '../assets/typescript.png';
@@ -53,6 +54,7 @@ export default {
     python,
     react,
     redux,
+    sanity,
     sass,
     solidity,
     typescript,
