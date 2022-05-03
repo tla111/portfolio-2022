@@ -13,8 +13,8 @@ const skillLogos = [
     { name: "Redux", image: images.redux },
     { name: "Node JS", image: images.node },
     { name: "Python", image: images.python },
-    { name: "Solidity", image: images.solidity },
     { name: "Sanity", image: images.sanity },
+    { name: "Solidity", image: images.solidity },
     { name: "Git", image: images.git }
 ]
 
