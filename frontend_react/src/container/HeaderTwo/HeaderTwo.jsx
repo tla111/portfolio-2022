@@ -9,7 +9,7 @@ const HeaderTwo = () => {
         <div className="app__header">
             <motion.div
                 whileInView={{ x: [-100, 0], opacity: [0, 1] }}
-                transition={{ duration: 0.5 }}
+                transition={{ duration: 0.75 }}
                 className="header_box first_header_box"
             >
                 <h1>Tim La | Front-End Web Developer</h1>
@@ -20,7 +20,7 @@ const HeaderTwo = () => {
             <motion.div
                 whileInView={{ x: [100, 0], opacity: [0, 1] }}
                 whileHover={{ scale: 1.1 }}
-                transition={{ duration: 0.5 }}
+                transition={{ duration: 0.75 }}
                 className="header_box second_header_box"
             >
                 <img src={images.about01} alt="header-img" />
