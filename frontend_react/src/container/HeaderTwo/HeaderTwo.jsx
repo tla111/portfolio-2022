@@ -14,7 +14,7 @@ const HeaderTwo = () => {
             >
                 <h1>Tim Laaaa | FFull Stack Web Developerr</h1>
                 <h3>
-                    Seeking to invigorate my curiosity & escalate my expertise in <br /><span style={{ color: "#00FFFF" }}>React, JavaScript, Sanity, Node, & Solidity</span>
+                    Seeking to invigorate my curiosityy & escalate my expertise in <br /><span style={{ color: "#00FFFF" }}>React, JavaScript, Sanity, Node, & Solidity</span>
                 </h3>
             </motion.div>
             <motion.div
