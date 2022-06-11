@@ -17,7 +17,7 @@ const HeaderTwo = () => {
                     Seeking to invigorate my curiosity & escalate my expertise in <br /><span style={{ color: "#00FFFF" }}>React, JavaScript, Sanity, Node, & Solidity</span>
                 </h3>
                 <h1>Hi</h1>
-                <h2>Hi</h2>
+                <h2 style={{ color: "white" }}>Hi</h2>
                 <h3>Hi</h3>
             </motion.div>
             <motion.div
