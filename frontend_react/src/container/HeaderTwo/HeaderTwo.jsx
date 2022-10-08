@@ -16,6 +16,7 @@ const HeaderTwo = () => {
                 <h3>
                     Seeking to invigorate my curiosity & escalate my expertise in <br /><span style={{ color: "#00FFFF" }}>React, JavaScript, Sanity, Node, & Solidity...</span>
                 </h3>
+                <h3>Everything looks good</h3>
             </motion.div>
             <motion.div
                 whileInView={{ x: [100, 0], opacity: [0, 1] }}
