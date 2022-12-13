@@ -43,7 +43,7 @@ const Work = () => {
             <h2 className="head-text" style={{ color: "#0033FF" }}> My <span style={{ color: "#00FFFF" }} > Portfolio</span> Work</h2 >
 
             <div className="app__work-filter">
-                {["All", "React", "Solidity", "Python", "Sanity", "Wix"].map((item, index) => (
+                {["All", "React", "Solidity", "Python", "Wix"].map((item, index) => (
                     <div
                         key={index}
                         onClick={() => handleWorkFilter(item)}
@@ -70,19 +70,19 @@ const Work = () => {
                                 className="app__work-hover app__flex"
                             >
 
-                               {work?.projectLink && (
-                                <a href={work.projectLink} target="_blank" rel="noreffer">
-                                    <motion.div
-                                        whileInView={{ scale: [0, 1] }}
-                                        whileHover={{ scale: [1, 0.9] }}
-                                        transition={{ duration: 0.25 }}
-                                        className="app__flex"
-                                    >
-                                        <AiFillEye />
-                                    </motion.div>
-                                </a>
-                               )}
-                              
+                                {work?.projectLink && (
+                                    <a href={work.projectLink} target="_blank" rel="noreffer">
+                                        <motion.div
+                                            whileInView={{ scale: [0, 1] }}
+                                            whileHover={{ scale: [1, 0.9] }}
+                                            transition={{ duration: 0.25 }}
+                                            className="app__flex"
+                                        >
+                                            <AiFillEye />
+                                        </motion.div>
+                                    </a>
+                                )}
+
                                 <a href={work.codeLink} target="_blank" rel="noreffer">
                                     <motion.div
                                         whileInView={{ scale: [0, 1] }}
