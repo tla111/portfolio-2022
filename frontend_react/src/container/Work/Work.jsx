@@ -43,7 +43,7 @@ const Work = () => {
             <h2 className="head-text" style={{ color: "#0033FF" }}> My <span style={{ color: "#00FFFF" }} > Portfolio</span> Work</h2 >
 
             <div className="app__work-filter">
-                {["All", "React", "Solidity", "Python", "Wix"].map((item, index) => (
+                {["All", "React", "Solidity", "Next", "Python", "Wix"].map((item, index) => (
                     <div
                         key={index}
                         onClick={() => handleWorkFilter(item)}
