@@ -1,5 +1,5 @@
 #home {
-         background-color: #0a0a0a;
+  background-color: #0a0a0a;
 }
 
 .app__header {
@@ -11,7 +11,7 @@
 
   padding: 4rem 2rem 0rem;
 
-//   border: 1px solid red;
+  //   border: 1px solid red;
 
   @media screen and (min-width: 2000px) {
     padding-top: 8rem;
@@ -27,34 +27,36 @@
 }
 
 .header_box {
-    // border: 1px solid dodgerblue;
-    height: 90%;
-    width: 50%;
+  // border: 1px solid dodgerblue;
+  height: 90%;
+  width: 50%;
 }
 
 .first_header_box {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 
-    h1, h3, p {
-      color: var(--white-color);
-    }
+  h1,
+  h2,
+  p {
+    color: var(--white-color);
+  }
 
-    h1 {
-        font-size: 38px;
-    }
+  h1 {
+    font-size: 38px;
+  }
 }
 
 .second_header_box {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-    img {
-        height: 75%;
-        width: 75%;
-        border-radius: 20px;
-        box-shadow: rgba(255, 255, 255, 0.55) 0px 5px 15px;
-    }
+  img {
+    height: 75%;
+    width: 75%;
+    border-radius: 20px;
+    box-shadow: rgba(255, 255, 255, 0.55) 0px 5px 15px;
+  }
 }
