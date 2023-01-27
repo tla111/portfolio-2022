@@ -13,9 +13,9 @@ const HeaderTwo = () => {
                 className="header_box first_header_box"
             >
                 <h1><span style={{ color: "#0033FF" }}>Tim La </span> | Full Stack Web Developer</h1>
-                <h2>
+                <h3>
                     Seeking to invigorate my curiosity & escalate my proficiency in <span style={{ color: "#0033FF" }}>React, JavaScript, Sanity, Node, & Solidity</span>
-                </h2>
+                </h3>
 
             </motion.div>
             <motion.div
