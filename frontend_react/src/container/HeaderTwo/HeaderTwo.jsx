@@ -13,10 +13,12 @@ const HeaderTwo = () => {
                 transition={{ duration: 0.75 }}
                 className="header_box first_header_box"
             >
-                <h1><span style={{ color: "#0033FF" }}>Tim La </span> | Full Stack Web Developer</h1>
-                <h3>
+                <h1><span style={{ color: "#0033FF" }}>Tim La</span></h1>
+                <h2>Full Stack Web Developer</h2>
+                <h2>
                     Seeking to invigorate my curiosity & advance my proficiency in <span style={{ color: "#0033FF" }}>React, JavaScript, Sanity, Node, & Solidity</span>
-                </h3>
+                </h2>
+                <p>*Interact with the computer by clicking & moving it</p>
 
             </motion.div>
 
